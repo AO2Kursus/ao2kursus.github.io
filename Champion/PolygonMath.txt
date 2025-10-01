@@ -1,0 +1,66 @@
+width = 100%			216px
+heigth = 115,74%		250px
+hpoint1 = 28,7%			62px
+hpoint2 = 86,574%		187px
+
+F8::{
+	width := 50
+	margin := 1
+	coll := 5
+
+	xMid := Format("{:.3f}", width/2)
+	yP1 := Format("{:.3f}", width*0.287)
+	yP2 := Format("{:.3f}", width*0.86574)
+	yP3 := Format("{:.3f}", width*1.1574)
+
+	A_Clipboard := ''
+
+		Loop coll{
+			itt := (A_index - 1) * (width + margin)
+			A_Clipboard .= '<polygon points="'
+			A_Clipboard .= xMid + itt ',' 0 ' '
+			A_Clipboard .= width + itt ',' yP1 ' '
+			A_Clipboard .= width + itt ',' yP2 ' '
+			A_Clipboard .= xMid + itt ',' yP3 ' '
+			A_Clipboard .= itt ',' yP2 ' '
+			A_Clipboard .= itt ',' yP1
+			A_Clipboard .= '" style="fill:green"/>`n'
+		} ;Loop
+}
+
+F8::{
+	width := 50
+	margin := 3
+	coll := 6
+	row := 4
+
+	xMid := width/2
+	yP1 := width*0.287
+	yP2 := width*0.86574
+	yP3 := width*1.1574
+
+	A_Clipboard := ''
+	id := 0
+
+	Loop row{
+		even := mod(A_index,2) ? 0 : 1
+		yOffset := (A_index - 1) * (yP3 + margin - (yP3 - yP2))
+		
+		Loop coll - even{
+			id += 1
+			If(even){	;lige rækker
+				xOffset := (A_index - 1) * (width + margin) + ((width + margin) / 2)
+			}else{
+				xOffset := (A_index - 1) * (width + margin)
+			}
+			A_Clipboard .= '<polygon id="poly' id '" points="'
+			A_Clipboard .= Format("{:.3f}",xMid + xOffset) ',' Format("{:.3f}",yOffset) ' '
+			A_Clipboard .= Format("{:.3f}",width + xOffset) ',' Format("{:.3f}",yP1 + yOffset) ' '
+			A_Clipboard .= Format("{:.3f}",width + xOffset) ',' Format("{:.3f}",yP2 + yOffset)  ' '
+			A_Clipboard .= Format("{:.3f}",xMid + xOffset) ',' Format("{:.3f}",yP3 + yOffset)  ' '
+			A_Clipboard .= Format("{:.3f}",xOffset) ',' Format("{:.3f}",yP2 + yOffset)  ' '
+			A_Clipboard .= Format("{:.3f}",xOffset) ',' Format("{:.3f}",yP1 + yOffset)
+			A_Clipboard .= '"/>`n'
+		} ;Loop
+	} ;Loop
+}

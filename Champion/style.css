@@ -1,0 +1,9 @@
+polygon{
+	fill:orange;
+}
+.content{
+	background-color:blue
+}
+.content:nth-child(2n){
+	background-color:red
+}
