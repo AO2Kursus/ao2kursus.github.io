@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg2411"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Skille.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2413"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="-536"
+     inkscape:cy="719.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2408" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#00006b;stroke-width:2.93797"
+       id="rect6613"
+       width="508.12057"
+       height="63.896416"
+       x="-233.14386"
+       y="78.793961" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.516855px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -233.14386,78.793961 c 197.822775,33.389519 360.01172,35.431549 507.951,36.597659 v 2.13941 c -184.759597,-0.80729 -312.681348,-1.59646 -507.951,-25.111577 z"
+       id="path7049"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Workspace\www\Champion\media\Skille.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#00006b;stroke-width:2.93797"
+       id="rect6613-7"
+       width="508.12057"
+       height="63.896416"
+       x="-230.548"
+       y="158.41354" />
+    <path
+       style="fill:#1f1f1f;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -230.54801,172.03904 337.64511,22.07445 170.30587,3.03713 H -230.548 Z"
+       id="path9993"
+       inkscape:export-filename="E:\Workspace\www\Champion\media\SkilleFoot.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.516855px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -230.54801,158.41355 c 197.822776,33.38952 360.01172,35.43155 507.951,36.59766 v 2.13941 c -184.759597,-0.80729 -312.681344,-1.59646 -507.951,-25.11158 z"
+       id="path7049-4"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="E:\Workspace\www\Champion\media\SkilleFoot.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
