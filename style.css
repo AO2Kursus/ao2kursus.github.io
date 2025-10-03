@@ -69,7 +69,7 @@ header p{
 }
 /*Background*/
 polygon{
-	fill:orange;
+	fill:#a87604;
 }
 #svgLayer{
 	background-color:#00006b;
@@ -166,6 +166,9 @@ polygon{
 	.content{
 		display:block;
 	}
+	.content h2{
+		font-size:2.1em;
+	}
 	.contentLeft{
 		width:100%;
 	}
@@ -175,7 +178,7 @@ polygon{
 		margin:auto;
 	}
 	.contentRight{
-		width:70%;
+		width:80%;
 		margin:auto;
 	}
 	.contentRight h2, .contentRight p{
@@ -188,8 +191,16 @@ polygon{
 	}
 	.bgContentLeft{
 		display:block;
-		width:70%;
+		width:80%;
 		margin:auto;
+	}
+	.bgContentLeft p{
+		margin-left:0;
+		margin-right:0;
+	}
+	.bgContentLeft h2{
+		margin-left:0;
+		margin-right:0;
 	}
 	.bgContentRight img{
 		float:none;
@@ -200,15 +211,9 @@ polygon{
 		width:100%;
 		margin-bottom:50px;
 	}
-	.bgContentRight h2{
-		margin-left:0;
-	}
-	.bgContentRight p{
-		margin-left:0;
-	}
 	
 }
-
+/*Footer*/
 footer{
 	margin-top: -7px;
 	margin-bottom: -22px;
